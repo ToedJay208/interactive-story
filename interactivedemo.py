@@ -59,3 +59,32 @@ elif choice == "bed":
 
 else: 
     print("You decide not to investigate")
+
+
+# ==========================================
+# ESCAPE THE CASTLE - SCENE 2: THE CORRIDOR
+# ==========================================
+
+# Create a list to store the player's inventory
+# We are assuming the player already found the key
+inventory = ["Iron Key"]
+
+
+# Introduce the scene
+print("You enter a long, dark corridor")
+print("You notice an old wooden cabinet")
+
+choice = input("Do you open the cabinet? yes/no: ")
+
+if choice == "yes":
+    print("You open the cabinet")
+    print("Inside, you find a Rusty Dagger!")
+  
+    inventory.append("Rusty Dagger")
+  
+    print("You pick up the dagger")
+
+elif choice == "no":
+    print("You leave the cabinet closed.")
+
+print(f"\n Your Inventory: {inventory}")
