@@ -1,5 +1,6 @@
 
-# Escape the Castle - Day 1
+
+
 
 # Welcome the player
 print("=== ESCAPE THE CASTLE ===")
@@ -29,7 +30,7 @@ print("Welcome, adventurer!")
 # print("You hear footsteps approaching...")
 # print("Your adventure is about to begin!")
 
-
+#region Escape the Castle - Scene 1
 # ==========================================
 # ESCAPE THE CASTLE - SCENE 1: THE CELL
 # ==========================================
@@ -60,7 +61,10 @@ elif choice == "bed":
 else: 
     print("You decide not to investigate")
 
+#endregion
 
+
+#region Escape the Castle - Scene 2
 # ==========================================
 # ESCAPE THE CASTLE - SCENE 2: THE CORRIDOR
 # ==========================================
@@ -87,3 +91,8 @@ elif choice == "no":
     print("You leave the cabinet closed.")
 
 print(f"\n Your Inventory: {inventory}")
+#endregion
+
+#region Escape the Castle - Scene 3
+#endregion
+
