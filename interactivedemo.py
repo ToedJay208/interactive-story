@@ -77,8 +77,7 @@ print("You notice an old wooden cabinet")
 choice = input("Do you open the cabinet? yes/no: ")
 
 if choice == "yes":
-    print("You open the cabinet")
-    print("Inside, you find a Rusty Dagger!")
+    print("You open the cabinet \nInside, you find a Rusty Dagger!")
   
     inventory.append("Rusty Dagger")
   
